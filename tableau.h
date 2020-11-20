@@ -1,0 +1,1 @@
+int tableau (int tab[], int n);

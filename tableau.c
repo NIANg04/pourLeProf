@@ -27,7 +27,7 @@ som+=tab[i];
 printf(" %d", som);
 printf("\n");
 printf("Les valeurs de l'inverse:\n");
-for (i=n-1; i>0; i--)
+for (i=n-1; i>=0; i--)
 {
   printf(" %d\t", tab[i]);
 }

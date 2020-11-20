@@ -15,12 +15,15 @@ int main()
      scanf("%d", &n);
      while((c=getchar())!='\n' && c != EOF);
  } while (n<=1 || n>50);
-
- for (i=0; i<n; i++)
+do
+{
+  for (i=0; i<n; i++)
    {
      printf("Elément %d : ", i);
      scanf("%d", &tab[i]);
    }
+} while ((c=getchar())!='\n' && c != EOF);
+printf("\n");
 
 tableau(tab, n);
  }
